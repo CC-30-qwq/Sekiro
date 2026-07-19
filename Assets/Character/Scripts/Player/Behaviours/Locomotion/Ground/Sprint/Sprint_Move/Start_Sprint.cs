@@ -1,0 +1,41 @@
+using UnityEngine;
+
+namespace Sekiro.BehaviourMachine
+{
+    public class StartSprint : PlayerBaseBehaviour
+    {
+        internal override PlayerBehaviour? StateBehaviour => PlayerBehaviour.StartSprint;
+
+        private Vector3 _sprintDirection;
+
+        public StartSprint(PlayerBehaviourMachine machine) : base(machine)
+        {
+        }
+
+        public override void OnEnter()
+        {
+            base.OnEnter();
+            _sprintDirection = Machine.transform.forward;
+            Methods.FadeAnimation("Start_Hard");
+            Profile = PlayerBehaviourProfile.GroundDefault(CharacterConfig.JumpForce);
+            Locomotion.ActiveRootMotion = LocomotionDriver.RootMotionMode.Modify;
+            Locomotion.ActiveRotation = LocomotionDriver.RotationSource.FixedDirection;
+            Locomotion.RotationSpeed = CharacterConfig.NormalRotateSpeed;
+            Locomotion.BufferInput = LocomotionDriver.BufferInputMode.Forward;
+        }
+
+        public override void OnUpdate()
+        {
+            base.OnUpdate();
+
+            _sprintDirection = RootMotionUtility.SmoothRotateDirection(_sprintDirection, Variable.InputDirection, CharacterConfig.SprintRotateSpeed);
+            StateData.SprintReleaseTimerValue = Inputs.SprintInput ? 0f : StateData.SprintReleaseTimerValue + Time.deltaTime;
+        }
+
+        public override void OnFixedUpdate()
+        {
+            Locomotion.FixedDirection = _sprintDirection;
+            base.OnFixedUpdate();
+        }
+    }
+}

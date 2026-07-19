@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 199514391a11d80419a2e3966d8d4fd3, type: 3}
+  m_Name: Attack_Charge_0_1
+  m_EditorClassIdentifier: 
+  AnimationClipName: Attack_Charge_0_1
+  PreviewModel: {fileID: 0}
+  PreviewAnimationClip: {fileID: 1827226128182048838, guid: 6425e4ea8976b28448925d2e91ef7521,
+    type: 3}
+  AttackType: 2
+  AttackStrength: 0
+  ChargeTime: 0.5
+  WindupTime: 0.2
+  AttackDuration: 0.4
+  RecoveryTime: 0.2
+  ExitTime: 0.2
+  HitColliderWindows:
+  - WeaponIndex: 0
+    EnableTime: 0.8
+    Duration: 0.3
+  NextComboOnAttack: {fileID: 11400000, guid: 3cf2e3b377e2eb84c92dd70032d531ab, type: 2}
+  NextComboOnRelease: {fileID: 11400000, guid: 47c1fbedeb502d14aba3fa57788cf87e, type: 2}

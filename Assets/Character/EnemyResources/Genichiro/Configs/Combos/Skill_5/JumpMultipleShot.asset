@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 199514391a11d80419a2e3966d8d4fd3, type: 3}
+  m_Name: JumpMultipleShot
+  m_EditorClassIdentifier: 
+  AnimationClipName: JumpMultipleShot
+  PreviewModel: {fileID: 0}
+  PreviewAnimationClip: {fileID: 1827226128182048838, guid: 0a5c1353efab581429f5b6a44cf45de3,
+    type: 3}
+  AttackType: 3
+  AttackStrength: 0
+  ChargeTime: 0
+  WindupTime: 0.2
+  AttackDuration: 2.3
+  RecoveryTime: 1
+  ExitTime: 0
+  HitColliderWindows: []
+  RangedHitWindows:
+  - WeaponIndex: 0
+    EnableTime: 0.65
+    SpawnOffset: {x: 0, y: 0, z: 0}
+  - WeaponIndex: 0
+    EnableTime: 0.85
+    SpawnOffset: {x: 0, y: 0, z: 0}
+  - WeaponIndex: 0
+    EnableTime: 1.1
+    SpawnOffset: {x: 0, y: 0, z: 0}
+  - WeaponIndex: 0
+    EnableTime: 1.6
+    SpawnOffset: {x: 0, y: 0, z: 0}
+  NextComboOnAttack: {fileID: 11400000, guid: fe19096e7c61a1748b1da19889ea5237, type: 2}
+  NextComboOnRelease: {fileID: 0}

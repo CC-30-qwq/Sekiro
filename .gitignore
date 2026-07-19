@@ -1,0 +1,23 @@
+# 第三方依赖和缓存
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+
+# 构建输出
+[Bb]uild/
+[Bb]uilds/
+
+# Visual Studio / VS Code 相关
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+.vscode/
+
+# Unity 生成的日志和元数据
+*.log
+*.pidb
+*.booproj
+*.svd

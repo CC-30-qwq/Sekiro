@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848430e2263232645a9e3203985bdd90, type: 3}
+  m_Name: AnimConfig_Player
+  m_EditorClassIdentifier: 
+  _entries:
+  - Name: Start_Medium
+    CrossFadeTime: 0.2
+    Hash: 320933097
+  - Name: Start_Hard
+    CrossFadeTime: 0.1
+    Hash: 298049278
+  - Name: Move_Medium
+    CrossFadeTime: 0.2
+    Hash: -393882107
+  - Name: Move_Hard
+    CrossFadeTime: 0.2
+    Hash: -306311429
+  - Name: Stop_Start
+    CrossFadeTime: 0.1
+    Hash: -1677225364
+  - Name: Stop_Medium
+    CrossFadeTime: 0.1
+    Hash: -9205582
+  - Name: Stop_Hard
+    CrossFadeTime: 0.1
+    Hash: 154202192
+  - Name: Turn_Start_0
+    CrossFadeTime: 0.1
+    Hash: -1909551880
+  - Name: Turn_Start_1
+    CrossFadeTime: 0.1
+    Hash: -114705298
+  - Name: Turn_Medium_0
+    CrossFadeTime: 0.1
+    Hash: -715118285
+  - Name: Turn_Medium_1
+    CrossFadeTime: 0.1
+    Hash: -1570301531
+  - Name: Turn_Hard_0
+    CrossFadeTime: 0.1
+    Hash: -1352516302
+  - Name: Turn_Hard_1
+    CrossFadeTime: 0.1
+    Hash: -664466012
+  - Name: Dodge_F
+    CrossFadeTime: 0.05
+    Hash: -230063783
+  - Name: Dodge_B
+    CrossFadeTime: 0.05
+    Hash: -182172352
+  - Name: Dodge_L
+    CrossFadeTime: 0.05
+    Hash: 312240199
+  - Name: Dodge_R
+    CrossFadeTime: 0.05
+    Hash: -392997596
+  - Name: Parry_Start
+    CrossFadeTime: 0.05
+    Hash: 26139764
+  - Name: Parry_Sprint
+    CrossFadeTime: 0.05
+    Hash: -982414934
+  - Name: Parry_ReStart_0
+    CrossFadeTime: 0.3
+    Hash: -59370978
+  - Name: Parry_ReStart_1
+    CrossFadeTime: 0.1
+    Hash: -1955519864
+  - Name: Defence_End
+    CrossFadeTime: 0.1
+    Hash: -586202238
+  - Name: Defence
+    CrossFadeTime: 0.2
+    Hash: 1591402168
+  - Name: Defence_Move
+    CrossFadeTime: 0.2
+    Hash: 1345561886
+  - Name: Defence_Move_Stop
+    CrossFadeTime: 0.2
+    Hash: 2108821466
+  - Name: Jump_Start
+    CrossFadeTime: 0.1
+    Hash: 316812144
+  - Name: Jump_Start_Free
+    CrossFadeTime: 0.1
+    Hash: -330653184
+  - Name: Land_Start
+    CrossFadeTime: 0.1
+    Hash: -204540044
+  - Name: Land
+    CrossFadeTime: 0.1
+    Hash: 137525990
+  - Name: Land_Free
+    CrossFadeTime: 0.1
+    Hash: -65415268
+  - Name: Jump
+    CrossFadeTime: 0.2
+    Hash: 125937960
+  - Name: Jump_Free
+    CrossFadeTime: 0.2
+    Hash: -564278313
+  - Name: Fall
+    CrossFadeTime: 0.2
+    Hash: 1533177906
+  - Name: Deflect_Light_C
+    CrossFadeTime: 0.1
+    Hash: -559904226
+  - Name: Deflect_Light_L
+    CrossFadeTime: 0.1
+    Hash: 1310693263
+  - Name: Deflect_Light_R
+    CrossFadeTime: 0.1
+    Hash: -1273976084
+  - Name: Hit_Light_F
+    CrossFadeTime: 0.1
+    Hash: -2096937517
+  - Name: Hit_Light_B
+    CrossFadeTime: 0.1
+    Hash: -2073132598
+  - Name: Hit_Light_L
+    CrossFadeTime: 0.1
+    Hash: 1675013325
+  - Name: Hit_Light_R
+    CrossFadeTime: 0.1
+    Hash: -1713794642
+  - Name: Block_Light_C0
+    CrossFadeTime: 0.1
+    Hash: 1353118856
+  - Name: Block_Light_L0
+    CrossFadeTime: 0.1
+    Hash: -683743161
+  - Name: Block_Light_R0
+    CrossFadeTime: 0.1
+    Hash: 58709912

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01cd78f2378a4c14393f1968c082cce8, type: 3}
+  m_Name: ComboDatabase_Player
+  m_EditorClassIdentifier: 
+  _combos:
+  - {fileID: 11400000, guid: f610f5a7b3e4a5b4793dc393bc32abaf, type: 2}
+  - {fileID: 11400000, guid: 0e2ea8aa530c4e64baea36f284b766b6, type: 2}
+  - {fileID: 11400000, guid: 3cf2e3b377e2eb84c92dd70032d531ab, type: 2}
+  - {fileID: 11400000, guid: bc1a507877246ab48a6731049f5b1d00, type: 2}
+  - {fileID: 11400000, guid: 9a871865d47fec94fae5142f869c3e9f, type: 2}
+  - {fileID: 11400000, guid: d4f2de3f9d877d143a64ea6af6cfcb53, type: 2}
+  - {fileID: 11400000, guid: f1f35eaa2fd64fb42be8069d1de38a29, type: 2}
+  - {fileID: 11400000, guid: c595eb1ee679b4d4ca51cfac1df5cff3, type: 2}
+  - {fileID: 11400000, guid: 47c1fbedeb502d14aba3fa57788cf87e, type: 2}
+  - {fileID: 11400000, guid: cae4c970ed4474e43a5cda8ea4bbd512, type: 2}
+  - {fileID: 11400000, guid: 736bff289bcc5874a9b4bb57b48e60a0, type: 2}
+  - {fileID: 11400000, guid: d2c1f67ebf236b84fbc594a676e8b1b3, type: 2}
+  - {fileID: 11400000, guid: d8b436f862836794d867db2b929612c5, type: 2}
+  - {fileID: 11400000, guid: 8d60454ecb481c24eab0c8a97f08220b, type: 2}
+  - {fileID: 11400000, guid: 1c709a379df9456469ac6b19426cc2fd, type: 2}

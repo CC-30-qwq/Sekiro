@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01cd78f2378a4c14393f1968c082cce8, type: 3}
+  m_Name: ComboDatabase_Genichiro
+  m_EditorClassIdentifier: 
+  _combos:
+  - {fileID: 11400000, guid: 33f81b90dffc3944691e5975c8d30247, type: 2}
+  - {fileID: 11400000, guid: b5ad43a1ceb88524ea39b891ae08c528, type: 2}
+  - {fileID: 11400000, guid: 77c955515965d0747b5ea15301a562fe, type: 2}
+  - {fileID: 11400000, guid: 98176aeaf56ab684b961b43abc6d2b31, type: 2}
+  - {fileID: 11400000, guid: f04779820e46c8d438254b61b0c596b9, type: 2}
+  - {fileID: 11400000, guid: 0a3c2ad0525c3a04f82a937ba1e3efd3, type: 2}
+  - {fileID: 11400000, guid: 1d989ed37994bba4eb5e4b141e3c319c, type: 2}
+  - {fileID: 11400000, guid: c1f2137bb78841a498d8e0fb9f410f02, type: 2}
+  - {fileID: 11400000, guid: 1a89604d839800e44a26e009a94ef69e, type: 2}
+  - {fileID: 11400000, guid: 949e81e7e1d15064e9ed2cd50c42a08c, type: 2}
+  - {fileID: 11400000, guid: b9c26948b9143a845a21a51a6cdbf233, type: 2}
+  - {fileID: 11400000, guid: bef041b3562397f46b234b2cad384fb0, type: 2}
+  - {fileID: 11400000, guid: 2ce1f3792cfe856478784a4061a99a32, type: 2}
+  - {fileID: 11400000, guid: 8f4982038cb39cf408a9ae81ec932bdb, type: 2}
+  - {fileID: 11400000, guid: fe19096e7c61a1748b1da19889ea5237, type: 2}

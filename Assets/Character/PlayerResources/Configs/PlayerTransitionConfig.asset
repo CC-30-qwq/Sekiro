@@ -1,0 +1,2124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9973f9783513bb043893f2fdf3f70861, type: 3}
+  m_Name: PlayerTransitionConfig
+  m_EditorClassIdentifier: 
+  nodeDataList:
+  - state: 0
+    position: {x: 80, y: 40}
+    tracks: []
+    globalRules:
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 2
+        attackState: 0
+        parryState: 0
+      - type: 8
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 11
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 2
+        attackState: 0
+        parryState: 0
+      - type: 9
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 12
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 1
+        comboReference: {fileID: 11400000, guid: f610f5a7b3e4a5b4793dc393bc32abaf,
+          type: 2}
+        floatValue: 0
+      targetState: 20
+    - conditions:
+      - type: 1
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 23
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 3
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 19
+    - conditions:
+      - type: 9
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      - type: 7
+        floatValue: -1
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 8
+    - conditions:
+      - type: 9
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      - type: 7
+        floatValue: 1
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 1
+  - state: 1
+    position: {x: 360, y: 40}
+    tracks:
+    - name: "\u2192 Run"
+      isActive: 1
+      clips:
+      - name: "\u2192 Run"
+        startTime: 0.5
+        endTime: 10
+        hasUnlimitedEndTime: 1
+        rules:
+        - conditions: []
+          action:
+            type: 0
+            comboReference: {fileID: 0}
+            floatValue: 0
+          targetState: 3
+        displayColor: {r: 0.3, g: 0.6, b: 1, a: 0.6}
+    globalRules:
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 2
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 12
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 1
+        comboReference: {fileID: 11400000, guid: f610f5a7b3e4a5b4793dc393bc32abaf,
+          type: 2}
+        floatValue: 0
+      targetState: 20
+    - conditions:
+      - type: 1
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 23
+    - conditions:
+      - type: 2
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 19
+    - conditions:
+      - type: 9
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      - type: 7
+        floatValue: -1
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 9
+    - conditions:
+      - type: 8
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 5
+  - state: 3
+    position: {x: 640, y: 40}
+    tracks: []
+    globalRules:
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 2
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 12
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 1
+        comboReference: {fileID: 11400000, guid: f610f5a7b3e4a5b4793dc393bc32abaf,
+          type: 2}
+        floatValue: 0
+      targetState: 20
+    - conditions:
+      - type: 1
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 23
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 3
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 19
+    - conditions:
+      - type: 9
+        floatValue: -1
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      - type: 7
+        floatValue: -1
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 9
+    - conditions:
+      - type: 8
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 6
+  - state: 4
+    position: {x: 920, y: 40}
+    tracks: []
+    globalRules:
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 2
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 12
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 1
+        comboReference: {fileID: 11400000, guid: 9a871865d47fec94fae5142f869c3e9f,
+          type: 2}
+        floatValue: 0
+      targetState: 20
+    - conditions:
+      - type: 1
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 24
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 3
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 19
+    - conditions:
+      - type: 9
+        floatValue: -1
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      - type: 7
+        floatValue: -1
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 10
+    - conditions:
+      - type: 14
+        floatValue: 0.3
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 3
+    - conditions:
+      - type: 8
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 7
+  - state: 2
+    position: {x: 1200, y: 40}
+    tracks:
+    - name: "\u2192 Run"
+      isActive: 1
+      clips:
+      - name: "\u2192 Run"
+        startTime: 0.5
+        endTime: 10
+        hasUnlimitedEndTime: 1
+        rules:
+        - conditions:
+          - type: 9
+            floatValue: 0
+            boolValue: 0
+            inputType: 0
+            attackState: 0
+            parryState: 0
+          - type: 14
+            floatValue: 0.3
+            boolValue: 0
+            inputType: 0
+            attackState: 0
+            parryState: 0
+          action:
+            type: 0
+            comboReference: {fileID: 0}
+            floatValue: 0
+          targetState: 3
+        displayColor: {r: 0.3, g: 0.6, b: 1, a: 0.6}
+    - name: "\u2192 Sprint"
+      isActive: 1
+      clips:
+      - name: "\u2192 Sprint"
+        startTime: 0.6
+        endTime: 10
+        hasUnlimitedEndTime: 1
+        rules:
+        - conditions: []
+          action:
+            type: 0
+            comboReference: {fileID: 0}
+            floatValue: 0
+          targetState: 4
+        displayColor: {r: 0.3, g: 0.6, b: 1, a: 0.6}
+    - name: "\u2192 Turn_Hard"
+      isActive: 1
+      clips:
+      - name: "\u2192 Turn_Hard"
+        startTime: 0.2
+        endTime: 10
+        hasUnlimitedEndTime: 1
+        rules:
+        - conditions:
+          - type: 9
+            floatValue: -1
+            boolValue: 0
+            inputType: 0
+            attackState: 0
+            parryState: 0
+          - type: 7
+            floatValue: -1
+            boolValue: 0
+            inputType: 0
+            attackState: 0
+            parryState: 0
+          action:
+            type: 0
+            comboReference: {fileID: 0}
+            floatValue: 0
+          targetState: 10
+        displayColor: {r: 0.3, g: 0.6, b: 1, a: 0.6}
+    - name: "\u2192 Dodge"
+      isActive: 1
+      clips:
+      - name: "\u2192 Dodge"
+        startTime: 0.2
+        endTime: 10
+        hasUnlimitedEndTime: 1
+        rules:
+        - conditions:
+          - type: 0
+            floatValue: 0
+            boolValue: 0
+            inputType: 3
+            attackState: 0
+            parryState: 0
+          action:
+            type: 0
+            comboReference: {fileID: 0}
+            floatValue: 0
+          targetState: 19
+        displayColor: {r: 0.3, g: 0.6, b: 1, a: 0.6}
+    - name: "\u2192 Parry_Sprint"
+      isActive: 1
+      clips:
+      - name: "\u2192 Parry_Sprint"
+        startTime: 0.4
+        endTime: 10
+        hasUnlimitedEndTime: 1
+        rules:
+        - conditions:
+          - type: 1
+            floatValue: 0
+            boolValue: 0
+            inputType: 0
+            attackState: 0
+            parryState: 0
+          action:
+            type: 0
+            comboReference: {fileID: 0}
+            floatValue: 0
+          targetState: 24
+        displayColor: {r: 0.3, g: 0.6, b: 1, a: 0.6}
+    globalRules:
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 2
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 12
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 1
+        comboReference: {fileID: 11400000, guid: d4f2de3f9d877d143a64ea6af6cfcb53,
+          type: 2}
+        floatValue: 0
+      targetState: 20
+  - state: 5
+    position: {x: 1480, y: 40}
+    tracks: []
+    globalRules:
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 2
+        attackState: 0
+        parryState: 0
+      - type: 8
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 11
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 2
+        attackState: 0
+        parryState: 0
+      - type: 9
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 12
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 1
+        comboReference: {fileID: 11400000, guid: f610f5a7b3e4a5b4793dc393bc32abaf,
+          type: 2}
+        floatValue: 0
+      targetState: 20
+    - conditions:
+      - type: 1
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 23
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 3
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 19
+    - conditions:
+      - type: 9
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      - type: 7
+        floatValue: -1
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 8
+    - conditions:
+      - type: 9
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      - type: 7
+        floatValue: 1
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 1
+  - state: 6
+    position: {x: 80, y: 260}
+    tracks:
+    - name: "\u2192 Turn_Medium"
+      isActive: 1
+      clips:
+      - name: "\u2192 Turn_Medium"
+        startTime: 0
+        endTime: 0.1
+        hasUnlimitedEndTime: 0
+        rules:
+        - conditions:
+          - type: 9
+            floatValue: -1
+            boolValue: 0
+            inputType: 0
+            attackState: 0
+            parryState: 0
+          - type: 7
+            floatValue: -1
+            boolValue: 0
+            inputType: 0
+            attackState: 0
+            parryState: 0
+          action:
+            type: 0
+            comboReference: {fileID: 0}
+            floatValue: 0
+          targetState: 9
+        displayColor: {r: 0.3, g: 0.6, b: 1, a: 0.6}
+    - name: "\u2192 Turn_Start"
+      isActive: 1
+      clips:
+      - name: "\u2192 Turn_Start"
+        startTime: 0.1
+        endTime: 10
+        hasUnlimitedEndTime: 1
+        rules:
+        - conditions:
+          - type: 9
+            floatValue: -1
+            boolValue: 0
+            inputType: 0
+            attackState: 0
+            parryState: 0
+          - type: 7
+            floatValue: -1
+            boolValue: 0
+            inputType: 0
+            attackState: 0
+            parryState: 0
+          action:
+            type: 0
+            comboReference: {fileID: 0}
+            floatValue: 0
+          targetState: 8
+        displayColor: {r: 0.3, g: 0.6, b: 1, a: 0.6}
+    globalRules:
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 2
+        attackState: 0
+        parryState: 0
+      - type: 8
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 11
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 2
+        attackState: 0
+        parryState: 0
+      - type: 9
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 12
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 1
+        comboReference: {fileID: 11400000, guid: f610f5a7b3e4a5b4793dc393bc32abaf,
+          type: 2}
+        floatValue: 0
+      targetState: 20
+    - conditions:
+      - type: 1
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 23
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 3
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 19
+    - conditions:
+      - type: 9
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      - type: 7
+        floatValue: 1
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 1
+  - state: 7
+    position: {x: 360, y: 260}
+    tracks:
+    - name: "\u2192 Attack_Ground"
+      isActive: 1
+      clips:
+      - name: "\u2192 Attack_Ground"
+        startTime: 0
+        endTime: 0.2
+        hasUnlimitedEndTime: 0
+        rules:
+        - conditions:
+          - type: 0
+            floatValue: 0
+            boolValue: 0
+            inputType: 0
+            attackState: 0
+            parryState: 0
+          action:
+            type: 1
+            comboReference: {fileID: 11400000, guid: 9a871865d47fec94fae5142f869c3e9f,
+              type: 2}
+            floatValue: 0
+          targetState: 20
+        displayColor: {r: 0.3, g: 0.6, b: 1, a: 0.6}
+      - name: "\u2192 Attack_Ground"
+        startTime: 0.2
+        endTime: 10
+        hasUnlimitedEndTime: 1
+        rules:
+        - conditions:
+          - type: 0
+            floatValue: 0
+            boolValue: 0
+            inputType: 0
+            attackState: 0
+            parryState: 0
+          action:
+            type: 1
+            comboReference: {fileID: 11400000, guid: 3cf2e3b377e2eb84c92dd70032d531ab,
+              type: 2}
+            floatValue: 0
+          targetState: 20
+        displayColor: {r: 0.3, g: 0.6, b: 1, a: 0.6}
+    - name: "\u2192 Dodge"
+      isActive: 1
+      clips:
+      - name: "\u2192 Dodge"
+        startTime: 0.1
+        endTime: 10
+        hasUnlimitedEndTime: 1
+        rules:
+        - conditions:
+          - type: 0
+            floatValue: 0
+            boolValue: 0
+            inputType: 3
+            attackState: 0
+            parryState: 0
+          action:
+            type: 0
+            comboReference: {fileID: 0}
+            floatValue: 0
+          targetState: 19
+        displayColor: {r: 0.3, g: 0.6, b: 1, a: 0.6}
+    - name: "\u2192 Turn_Hard"
+      isActive: 1
+      clips:
+      - name: "\u2192 Turn_Hard"
+        startTime: 0
+        endTime: 0.1
+        hasUnlimitedEndTime: 0
+        rules:
+        - conditions:
+          - type: 9
+            floatValue: -1
+            boolValue: 0
+            inputType: 0
+            attackState: 0
+            parryState: 0
+          - type: 7
+            floatValue: -1
+            boolValue: 0
+            inputType: 0
+            attackState: 0
+            parryState: 0
+          action:
+            type: 0
+            comboReference: {fileID: 0}
+            floatValue: 0
+          targetState: 10
+        displayColor: {r: 0.3, g: 0.6, b: 1, a: 0.6}
+    - name: "\u2192 Idle"
+      isActive: 1
+      clips:
+      - name: "\u2192 Idle"
+        startTime: 0.3
+        endTime: 10
+        hasUnlimitedEndTime: 1
+        rules:
+        - conditions: []
+          action:
+            type: 0
+            comboReference: {fileID: 0}
+            floatValue: 0
+          targetState: 0
+        displayColor: {r: 0.3, g: 0.6, b: 1, a: 0.6}
+    globalRules:
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 2
+        attackState: 0
+        parryState: 0
+      - type: 8
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 11
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 2
+        attackState: 0
+        parryState: 0
+      - type: 9
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 12
+    - conditions:
+      - type: 1
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 23
+  - state: 8
+    position: {x: 640, y: 260}
+    tracks:
+    - name: "\u2192 Run"
+      isActive: 1
+      clips:
+      - name: "\u2192 Run"
+        startTime: 0.9
+        endTime: 10
+        hasUnlimitedEndTime: 1
+        rules:
+        - conditions:
+          - type: 22
+            floatValue: 0
+            boolValue: 0
+            inputType: 0
+            attackState: 0
+            parryState: 0
+          action:
+            type: 0
+            comboReference: {fileID: 0}
+            floatValue: 0
+          targetState: 3
+        displayColor: {r: 0.3, g: 0.6, b: 1, a: 0.6}
+    - name: "\u2192 Run"
+      isActive: 1
+      clips:
+      - name: "\u2192 Run"
+        startTime: 0.6
+        endTime: 10
+        hasUnlimitedEndTime: 1
+        rules:
+        - conditions:
+          - type: 23
+            floatValue: 0
+            boolValue: 0
+            inputType: 0
+            attackState: 0
+            parryState: 0
+          action:
+            type: 0
+            comboReference: {fileID: 0}
+            floatValue: 0
+          targetState: 3
+        displayColor: {r: 0.3, g: 0.6, b: 1, a: 0.6}
+    globalRules:
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 2
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 12
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 1
+        comboReference: {fileID: 11400000, guid: f610f5a7b3e4a5b4793dc393bc32abaf,
+          type: 2}
+        floatValue: 0
+      targetState: 20
+    - conditions:
+      - type: 1
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 23
+    - conditions:
+      - type: 2
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 19
+    - conditions:
+      - type: 9
+        floatValue: -1
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      - type: 7
+        floatValue: -1
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 8
+    - conditions:
+      - type: 8
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 5
+  - state: 9
+    position: {x: 920, y: 260}
+    tracks:
+    - name: "\u2192 Run"
+      isActive: 1
+      clips:
+      - name: "\u2192 Run"
+        startTime: 0.9
+        endTime: 10
+        hasUnlimitedEndTime: 1
+        rules:
+        - conditions:
+          - type: 22
+            floatValue: 0
+            boolValue: 0
+            inputType: 0
+            attackState: 0
+            parryState: 0
+          action:
+            type: 0
+            comboReference: {fileID: 0}
+            floatValue: 0
+          targetState: 3
+        displayColor: {r: 0.3, g: 0.6, b: 1, a: 0.6}
+    - name: "\u2192 Run"
+      isActive: 1
+      clips:
+      - name: "\u2192 Run"
+        startTime: 0.6
+        endTime: 10
+        hasUnlimitedEndTime: 1
+        rules:
+        - conditions:
+          - type: 23
+            floatValue: 0
+            boolValue: 0
+            inputType: 0
+            attackState: 0
+            parryState: 0
+          action:
+            type: 0
+            comboReference: {fileID: 0}
+            floatValue: 0
+          targetState: 3
+        displayColor: {r: 0.3, g: 0.6, b: 1, a: 0.6}
+    globalRules:
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 2
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 12
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 1
+        comboReference: {fileID: 11400000, guid: f610f5a7b3e4a5b4793dc393bc32abaf,
+          type: 2}
+        floatValue: 0
+      targetState: 20
+    - conditions:
+      - type: 1
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 23
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 3
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 19
+    - conditions:
+      - type: 2
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 19
+    - conditions:
+      - type: 9
+        floatValue: -1
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      - type: 7
+        floatValue: -1
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 9
+    - conditions:
+      - type: 8
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 5
+  - state: 10
+    position: {x: 1200, y: 260}
+    tracks:
+    - name: "\u2192 Start_Jump_InPlace"
+      isActive: 1
+      clips:
+      - name: "\u2192 Start_Jump_InPlace"
+        startTime: 0.2
+        endTime: 10
+        hasUnlimitedEndTime: 1
+        rules:
+        - conditions:
+          - type: 0
+            floatValue: 0
+            boolValue: 0
+            inputType: 2
+            attackState: 0
+            parryState: 0
+          - type: 8
+            floatValue: 0
+            boolValue: 0
+            inputType: 0
+            attackState: 0
+            parryState: 0
+          action:
+            type: 0
+            comboReference: {fileID: 0}
+            floatValue: 0
+          targetState: 11
+        displayColor: {r: 0.3, g: 0.6, b: 1, a: 0.6}
+    - name: "\u2192 Start_Jump_Direct"
+      isActive: 1
+      clips:
+      - name: "\u2192 Start_Jump_Direct"
+        startTime: 0.2
+        endTime: 10
+        hasUnlimitedEndTime: 1
+        rules:
+        - conditions:
+          - type: 0
+            floatValue: 0
+            boolValue: 0
+            inputType: 2
+            attackState: 0
+            parryState: 0
+          - type: 9
+            floatValue: 0
+            boolValue: 0
+            inputType: 0
+            attackState: 0
+            parryState: 0
+          action:
+            type: 0
+            comboReference: {fileID: 0}
+            floatValue: 0
+          targetState: 12
+        displayColor: {r: 0.3, g: 1, b: 0.6, a: 0.6}
+    - name: "\u2192 Idle"
+      isActive: 1
+      clips:
+      - name: "\u2192 Idle"
+        startTime: 0.5
+        endTime: 10
+        hasUnlimitedEndTime: 1
+        rules:
+        - conditions: []
+          action:
+            type: 0
+            comboReference: {fileID: 0}
+            floatValue: 0
+          targetState: 0
+        displayColor: {r: 0.3, g: 0.6, b: 1, a: 0.6}
+    globalRules: []
+  - state: 11
+    position: {x: 1480, y: 260}
+    tracks:
+    - name: "\u2192 Jump_InPlace"
+      isActive: 1
+      clips:
+      - name: "\u2192 Jump_InPlace"
+        startTime: 0.1
+        endTime: 10
+        hasUnlimitedEndTime: 1
+        rules:
+        - conditions: []
+          action:
+            type: 0
+            comboReference: {fileID: 0}
+            floatValue: 0
+          targetState: 13
+        displayColor: {r: 0.3, g: 0.6, b: 1, a: 0.6}
+    globalRules: []
+  - state: 12
+    position: {x: 80, y: 480}
+    tracks:
+    - name: "\u2192 Jump_Direct"
+      isActive: 1
+      clips:
+      - name: "\u2192 Jump_Direct"
+        startTime: 0.1
+        endTime: 10
+        hasUnlimitedEndTime: 1
+        rules:
+        - conditions: []
+          action:
+            type: 0
+            comboReference: {fileID: 0}
+            floatValue: 0
+          targetState: 14
+        displayColor: {r: 0.3, g: 0.6, b: 1, a: 0.6}
+    globalRules: []
+  - state: 13
+    position: {x: 360, y: 480}
+    tracks: []
+    globalRules:
+    - conditions:
+      - type: 11
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 15
+  - state: 14
+    position: {x: 640, y: 480}
+    tracks: []
+    globalRules:
+    - conditions:
+      - type: 11
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 15
+  - state: 15
+    position: {x: 920, y: 480}
+    tracks:
+    - name: "\u2192 Start_Land"
+      isActive: 1
+      clips:
+      - name: "\u2192 Start_Land"
+        startTime: 0.1
+        endTime: 10
+        hasUnlimitedEndTime: 1
+        rules:
+        - conditions:
+          - type: 5
+            floatValue: 0
+            boolValue: 0
+            inputType: 0
+            attackState: 0
+            parryState: 0
+          action:
+            type: 0
+            comboReference: {fileID: 0}
+            floatValue: 0
+          targetState: 16
+        displayColor: {r: 0.3, g: 0.6, b: 1, a: 0.6}
+    globalRules: []
+  - state: 16
+    position: {x: 1200, y: 480}
+    tracks:
+    - name: "\u2192 Land_InPlace"
+      isActive: 1
+      clips:
+      - name: "\u2192 Land_InPlace"
+        startTime: 0.1
+        endTime: 10
+        hasUnlimitedEndTime: 1
+        rules:
+        - conditions:
+          - type: 21
+            floatValue: 0
+            boolValue: 0
+            inputType: 0
+            attackState: 0
+            parryState: 0
+          action:
+            type: 0
+            comboReference: {fileID: 0}
+            floatValue: 0
+          targetState: 17
+        displayColor: {r: 0.3, g: 0.6, b: 1, a: 0.6}
+    - name: "\u2192 Land_Direct"
+      isActive: 1
+      clips:
+      - name: "\u2192 Land_Direct"
+        startTime: 0.1
+        endTime: 10
+        hasUnlimitedEndTime: 1
+        rules:
+        - conditions:
+          - type: 13
+            floatValue: 0
+            boolValue: 0
+            inputType: 0
+            attackState: 0
+            parryState: 0
+          action:
+            type: 0
+            comboReference: {fileID: 0}
+            floatValue: 0
+          targetState: 18
+        displayColor: {r: 0.3, g: 0.6, b: 1, a: 0.6}
+    globalRules: []
+  - state: 17
+    position: {x: 1480, y: 480}
+    tracks:
+    - name: "\u2192 Idle"
+      isActive: 1
+      clips:
+      - name: "\u2192 Idle"
+        startTime: 0.2
+        endTime: 10
+        hasUnlimitedEndTime: 1
+        rules:
+        - conditions: []
+          action:
+            type: 0
+            comboReference: {fileID: 0}
+            floatValue: 0
+          targetState: 0
+        displayColor: {r: 0.3, g: 0.6, b: 1, a: 0.6}
+    globalRules: []
+  - state: 18
+    position: {x: 80, y: 700}
+    tracks:
+    - name: "\u2192 Idle"
+      isActive: 1
+      clips:
+      - name: "\u2192 Idle"
+        startTime: 0.2
+        endTime: 10
+        hasUnlimitedEndTime: 1
+        rules:
+        - conditions: []
+          action:
+            type: 0
+            comboReference: {fileID: 0}
+            floatValue: 0
+          targetState: 0
+        displayColor: {r: 0.3, g: 0.6, b: 1, a: 0.6}
+    globalRules: []
+  - state: 19
+    position: {x: 360, y: 700}
+    tracks:
+    - name: "\u2192 Attack_Ground"
+      isActive: 1
+      clips:
+      - name: "\u2192 Attack_Ground"
+        startTime: 0.5
+        endTime: 10
+        hasUnlimitedEndTime: 1
+        rules:
+        - conditions:
+          - type: 0
+            floatValue: 0
+            boolValue: 0
+            inputType: 0
+            attackState: 0
+            parryState: 0
+          action:
+            type: 1
+            comboReference: {fileID: 11400000, guid: 9a871865d47fec94fae5142f869c3e9f,
+              type: 2}
+            floatValue: 0
+          targetState: 20
+        displayColor: {r: 0.3, g: 0.6, b: 1, a: 0.6}
+    - name: "\u2192 Dodge"
+      isActive: 1
+      clips:
+      - name: "\u2192 Dodge"
+        startTime: 0.6
+        endTime: 10
+        hasUnlimitedEndTime: 1
+        rules:
+        - conditions:
+          - type: 0
+            floatValue: 0
+            boolValue: 0
+            inputType: 3
+            attackState: 0
+            parryState: 0
+          action:
+            type: 0
+            comboReference: {fileID: 0}
+            floatValue: 0
+          targetState: 19
+        displayColor: {r: 0.3, g: 0.6, b: 1, a: 0.6}
+    - name: "\u2192 Start_Sprint"
+      isActive: 1
+      clips:
+      - name: "\u2192 Start_Sprint"
+        startTime: 0.5
+        endTime: 10
+        hasUnlimitedEndTime: 1
+        rules:
+        - conditions:
+          - type: 2
+            floatValue: 0
+            boolValue: 0
+            inputType: 0
+            attackState: 0
+            parryState: 0
+          - type: 9
+            floatValue: 0
+            boolValue: 0
+            inputType: 0
+            attackState: 0
+            parryState: 0
+          - type: 20
+            floatValue: 0.2
+            boolValue: 0
+            inputType: 0
+            attackState: 0
+            parryState: 0
+          action:
+            type: 0
+            comboReference: {fileID: 0}
+            floatValue: 0
+          targetState: 2
+        displayColor: {r: 0.3, g: 0.6, b: 1, a: 0.6}
+    - name: "\u2192 Idle"
+      isActive: 1
+      clips:
+      - name: "\u2192 Idle"
+        startTime: 0.7
+        endTime: 10
+        hasUnlimitedEndTime: 1
+        rules:
+        - conditions: []
+          action:
+            type: 0
+            comboReference: {fileID: 0}
+            floatValue: 0
+          targetState: 0
+        displayColor: {r: 0.3, g: 0.6, b: 1, a: 0.6}
+    globalRules: []
+  - state: 20
+    position: {x: 640, y: 700}
+    tracks: []
+    globalRules:
+    - conditions:
+      - type: 24
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 1
+        parryState: 0
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 1
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 23
+    - conditions:
+      - type: 24
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 4
+        parryState: 0
+      - type: 9
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 0
+    - conditions:
+      - type: 18
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 0
+  - state: 23
+    position: {x: 920, y: 700}
+    tracks: []
+    globalRules:
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 1
+        comboReference: {fileID: 11400000, guid: f610f5a7b3e4a5b4793dc393bc32abaf,
+          type: 2}
+        floatValue: 0
+      targetState: 20
+    - conditions:
+      - type: 25
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 2
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 1
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 25
+    - conditions:
+      - type: 26
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 27
+  - state: 24
+    position: {x: 1200, y: 700}
+    tracks: []
+    globalRules:
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 1
+        comboReference: {fileID: 11400000, guid: f610f5a7b3e4a5b4793dc393bc32abaf,
+          type: 2}
+        floatValue: 0
+      targetState: 20
+    - conditions:
+      - type: 25
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 2
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 1
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 25
+    - conditions:
+      - type: 26
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 27
+  - state: 25
+    position: {x: 1480, y: 700}
+    tracks: []
+    globalRules:
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 1
+        comboReference: {fileID: 11400000, guid: f610f5a7b3e4a5b4793dc393bc32abaf,
+          type: 2}
+        floatValue: 0
+      targetState: 20
+    - conditions:
+      - type: 25
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 2
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 1
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 25
+    - conditions:
+      - type: 26
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 27
+  - state: 26
+    position: {x: 80, y: 920}
+    tracks: []
+    globalRules:
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 1
+        comboReference: {fileID: 11400000, guid: f610f5a7b3e4a5b4793dc393bc32abaf,
+          type: 2}
+        floatValue: 0
+      targetState: 20
+    - conditions:
+      - type: 25
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 2
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 1
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 25
+    - conditions:
+      - type: 26
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 27
+  - state: 27
+    position: {x: 360, y: 920}
+    tracks: []
+    globalRules:
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 3
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 19
+    - conditions:
+      - type: 15
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 30
+    - conditions:
+      - type: 9
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 28
+  - state: 28
+    position: {x: 640, y: 920}
+    tracks: []
+    globalRules:
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 3
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 19
+    - conditions:
+      - type: 15
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 30
+    - conditions:
+      - type: 8
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 29
+  - state: 29
+    position: {x: 920, y: 920}
+    tracks: []
+    globalRules:
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 3
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 19
+    - conditions:
+      - type: 15
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 30
+    - conditions:
+      - type: 9
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 28
+  - state: 30
+    position: {x: 1200, y: 920}
+    tracks:
+    - name: "\u2192 ParryReStart1"
+      isActive: 1
+      clips:
+      - name: "\u2192 ParryReStart1"
+        startTime: 0.1
+        endTime: 0.2
+        hasUnlimitedEndTime: 0
+        rules:
+        - conditions:
+          - type: 0
+            floatValue: 0
+            boolValue: 0
+            inputType: 1
+            attackState: 0
+            parryState: 0
+          action:
+            type: 0
+            comboReference: {fileID: 0}
+            floatValue: 0
+          targetState: 26
+        displayColor: {r: 0.3, g: 0.6, b: 1, a: 0.6}
+    - name: "\u2192 Idle"
+      isActive: 1
+      clips:
+      - name: "\u2192 Idle"
+        startTime: 0.2
+        endTime: 10
+        hasUnlimitedEndTime: 1
+        rules:
+        - conditions: []
+          action:
+            type: 0
+            comboReference: {fileID: 0}
+            floatValue: 0
+          targetState: 0
+        displayColor: {r: 0.3, g: 0.6, b: 1, a: 0.6}
+    globalRules:
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 2
+        attackState: 0
+        parryState: 0
+      - type: 8
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 11
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 2
+        attackState: 0
+        parryState: 0
+      - type: 9
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 12
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 0
+        attackState: 0
+        parryState: 0
+      action:
+        type: 1
+        comboReference: {fileID: 11400000, guid: 3cf2e3b377e2eb84c92dd70032d531ab,
+          type: 2}
+        floatValue: 0
+      targetState: 20
+    - conditions:
+      - type: 0
+        floatValue: 0
+        boolValue: 0
+        inputType: 3
+        attackState: 0
+        parryState: 0
+      action:
+        type: 0
+        comboReference: {fileID: 0}
+        floatValue: 0
+      targetState: 19
+  - state: 31
+    position: {x: 1480, y: 920}
+    tracks:
+    - name: "\u2192 Idle"
+      isActive: 1
+      clips:
+      - name: "\u2192 Idle"
+        startTime: 0.4
+        endTime: 10
+        hasUnlimitedEndTime: 1
+        rules:
+        - conditions: []
+          action:
+            type: 0
+            comboReference: {fileID: 0}
+            floatValue: 0
+          targetState: 0
+        displayColor: {r: 0.3, g: 0.6, b: 1, a: 0.6}
+    globalRules: []
+  - state: 32
+    position: {x: 80, y: 1140}
+    tracks:
+    - name: "\u2192 Defence"
+      isActive: 1
+      clips:
+      - name: "\u2192 Defence"
+        startTime: 0.3
+        endTime: 0.5
+        hasUnlimitedEndTime: 1
+        rules:
+        - conditions:
+          - type: 1
+            floatValue: 0
+            boolValue: 0
+            inputType: 0
+            attackState: 0
+            parryState: 0
+          action:
+            type: 0
+            comboReference: {fileID: 0}
+            floatValue: 0
+          targetState: 27
+        displayColor: {r: 0.3, g: 0.6, b: 1, a: 0.6}
+    - name: "\u2192 CancelDefence"
+      isActive: 1
+      clips:
+      - name: "\u2192 CancelDefence"
+        startTime: 0.3
+        endTime: 0.5
+        hasUnlimitedEndTime: 1
+        rules:
+        - conditions:
+          - type: 15
+            floatValue: 0
+            boolValue: 0
+            inputType: 0
+            attackState: 0
+            parryState: 0
+          action:
+            type: 0
+            comboReference: {fileID: 0}
+            floatValue: 0
+          targetState: 30
+        displayColor: {r: 0.3, g: 0.6, b: 1, a: 0.6}
+    globalRules: []
+  - state: 33
+    position: {x: 360, y: 1140}
+    tracks:
+    - name: "\u2192 Idle"
+      isActive: 1
+      clips:
+      - name: "\u2192 Idle"
+        startTime: 0.2
+        endTime: 10
+        hasUnlimitedEndTime: 1
+        rules:
+        - conditions: []
+          action:
+            type: 0
+            comboReference: {fileID: 0}
+            floatValue: 0
+          targetState: 0
+        displayColor: {r: 0.3, g: 0.6, b: 1, a: 0.6}
+    globalRules: []
+  - state: 21
+    position: {x: 0, y: 0}
+    tracks: []
+    globalRules: []
+  - state: 22
+    position: {x: 0, y: 0}
+    tracks: []
+    globalRules: []
